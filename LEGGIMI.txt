@@ -1,0 +1,27 @@
+InkAnimus OS — BIO (versione VERDE / accessibile)
+==================================================
+
+PWA completa pronta da caricare. Contiene:
+- index.html         → l'app (login, cura, rete, arcade, Nexus City, market, inventario)
+- manifest.webmanifest → configurazione PWA
+- sw.js              → service worker (offline + installazione)
+- icons/             → icone app (verde acido)
+
+A COSA SERVE QUESTA VERSIONE
+È la versione pensata per chi fa fatica a leggere (es. dislessia):
+- Tema verde acido / verde scuro, riposante per gli occhi
+- Effetto "tubo catodico" (la rigatura sulle scritte) SPENTO di default
+- Si può comunque RIACCENDERE l'effetto CRT dal pulsante in alto a sinistra
+  nel login, o dalla scheda Profilo. La scelta resta salvata sul telefono.
+
+NOTA: anche le versioni Blu e Sakura ora hanno lo stesso interruttore CRT,
+così chiunque può accendere/spegnere l'effetto a piacere. In quelle due
+versioni l'effetto parte ACCESO; in questa Bio parte SPENTO.
+
+COME CARICARLA SU NETLIFY
+1. Trascina l'INTERA cartella "pwa_bio_nav" su https://app.netlify.com/drop
+   (oppure collega la cartella a un nuovo sito)
+2. Apri il link che ti dà Netlify dal telefono
+3. "Aggiungi a schermata Home" → si installa come app
+
+GemBucher Tattooer — Podere 173, Ozieri
